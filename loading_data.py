@@ -46,7 +46,7 @@ def create_training_data():
             except Exception as e:
                 pass
             except OSError as e:
-                print("OSErrroBad img most likely", e, os.path.join(path,img))
+                print("OS Error Bad img most likely", e, os.path.join(path,img))
             except Exception as e:
                 print("general exception", e, os.path.join(path,img))
 
